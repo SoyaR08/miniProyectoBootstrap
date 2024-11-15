@@ -1,0 +1,43 @@
+.ubuntu {
+    font-family: "Ubuntu", serif;
+}
+
+#azulado {
+    background-color: #3AAFB9;
+}
+
+.imagen1 > img {
+    margin: 0 auto;
+    border: 1px solid black;
+}
+
+.line {
+    width: 90%;
+    height: 2px;
+    background-color: #3AAFB9;
+    margin: 0 auto;
+}
+
+.imagen {
+    height: 200px;
+    width: 100%;
+}
+
+.cartas {
+    margin-left: 14%;
+}
+
+.size {
+    width: 75%;
+    margin: 0 auto;
+}
+
+.centered {
+    margin: 0 auto;
+}
+
+@media (min-width : 1200px) {
+    .box > p {
+        width: 60%;
+    }
+}
